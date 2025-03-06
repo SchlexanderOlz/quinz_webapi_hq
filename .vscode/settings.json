@@ -1,0 +1,42 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "insycon",
+            "database": "test",
+            "username": "postgres",
+            "askForPassword": true
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "name": "defcon",
+            "database": "test",
+            "username": "postgres"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "192.168.10.10",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "hq_conn",
+            "database": "MTK-I40",
+            "username": "5AHIT",
+            "askForPassword": true
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+INSERT INTO data VALUES (420, null, null, "Alexander Scholz");
